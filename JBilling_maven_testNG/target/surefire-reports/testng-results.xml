@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2308" started-at="2016-04-05T19:08:22Z" finished-at="2016-04-05T19:08:24Z">
+  <suite name="Suite" duration-ms="1735" started-at="2016-04-05T19:42:18Z" finished-at="2016-04-05T19:42:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2308" started-at="2016-04-05T19:08:22Z" finished-at="2016-04-05T19:08:24Z">
+    <test name="Test" duration-ms="1735" started-at="2016-04-05T19:42:18Z" finished-at="2016-04-05T19:42:20Z">
       <class name="com.test.jbilling.Browser">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.jbilling.Browser@5dafbe45]" name="setup" is-config="true" duration-ms="19" started-at="2016-04-05T19:08:22Z" finished-at="2016-04-05T19:08:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.jbilling.Browser@2d0399f4]" name="setup" is-config="true" duration-ms="59" started-at="2016-04-05T19:42:18Z" finished-at="2016-04-05T19:42:18Z">
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.jbilling.Browser@5dafbe45]" name="tearDown" is-config="true" duration-ms="74" started-at="2016-04-05T19:08:24Z" finished-at="2016-04-05T19:08:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.jbilling.Browser@2d0399f4]" name="tearDown" is-config="true" duration-ms="70" started-at="2016-04-05T19:42:20Z" finished-at="2016-04-05T19:42:20Z">
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.jbilling.Browser -->
       <class name="com.test.jbilling.LoginTest">
-        <test-method status="PASS" signature="testLoginTestJbilling()[pri:0, instance:com.test.jbilling.LoginTest@2254127a]" name="testLoginTestJbilling" duration-ms="2296" started-at="2016-04-05T19:08:22Z" finished-at="2016-04-05T19:08:24Z">
+        <test-method status="PASS" signature="testLoginTestJbilling()[pri:0, instance:com.test.jbilling.LoginTest@14dd7b39]" name="testLoginTestJbilling" duration-ms="1722" started-at="2016-04-05T19:42:18Z" finished-at="2016-04-05T19:42:20Z">
         </test-method> <!-- testLoginTestJbilling -->
       </class> <!-- com.test.jbilling.LoginTest -->
     </test> <!-- Test -->
