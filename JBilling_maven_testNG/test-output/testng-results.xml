@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1857" started-at="2016-04-03T17:18:57Z" finished-at="2016-04-03T17:18:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1857" started-at="2016-04-03T17:18:57Z" finished-at="2016-04-03T17:18:59Z">
+      <class name="com.test.jbilling.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.jbilling.LoginTest@c00fff0]" name="setup" is-config="true" duration-ms="47" started-at="2016-04-03T17:18:57Z" finished-at="2016-04-03T17:18:57Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginTestJbilling()[pri:0, instance:com.test.jbilling.LoginTest@c00fff0]" name="testLoginTestJbilling" duration-ms="1840" started-at="2016-04-03T17:18:57Z" finished-at="2016-04-03T17:18:59Z">
+        </test-method> <!-- testLoginTestJbilling -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.jbilling.LoginTest@c00fff0]" name="tearDown" is-config="true" duration-ms="188" started-at="2016-04-03T17:18:59Z" finished-at="2016-04-03T17:18:59Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.jbilling.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
