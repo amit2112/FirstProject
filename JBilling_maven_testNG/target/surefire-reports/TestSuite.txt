@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.737 sec - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 106.998 sec <<< FAILURE! - in TestSuite
+testLoginTestJbilling(com.test.jbilling.LoginTest)  Time elapsed: 29.818 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'amit-LENOVO-3000-G580', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-61-generic', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=26431, browserVersion=49.0.2, platformVersion=3.19.0-61-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux, device=desktop}]
+Session ID: 4781af56-1999-4813-bcbe-eb8515fb4b0e
+	at com.test.jbilling.LoginTest.testLoginTestJbilling(LoginTest.java:15)
+Caused by: java.lang.NullPointerException
+	at com.test.jbilling.LoginTest.testLoginTestJbilling(LoginTest.java:15)
+
+tearDown(com.test.jbilling.Browser)  Time elapsed: 33.428 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'amit-LENOVO-3000-G580', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-61-generic', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=26431, browserVersion=49.0.2, platformVersion=3.19.0-61-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux, device=desktop}]
+Session ID: 4781af56-1999-4813-bcbe-eb8515fb4b0e
+	at com.test.jbilling.Browser.tearDown(Browser.java:34)
+Caused by: java.lang.NullPointerException
+	at com.test.jbilling.Browser.tearDown(Browser.java:34)
+

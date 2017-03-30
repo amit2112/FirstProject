@@ -3,11 +3,9 @@ package com.test.jbilling;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.MarionetteDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
-import io.github.bonigarcia.wdm.MarionetteDriverManager;
 
 public class Browser {
 	protected static WebDriver driver;
@@ -15,9 +13,9 @@ public class Browser {
 	
   @BeforeSuite
   public void setup() {
-  	  System.setProperty("webdriver.gecko.driver","/home/amit/Downloads/GeckoDriver/geckodriver");
+  	  System.setProperty("webdriver.gecko.driver", "/home/amit/Downloads/GeckoDriver/geckodriver");
   	  MarionetteDriverManager.getInstance().setup();
- 	  driver = new MarionetteDriver();
+ 	  driver = new MarionetteDriver
 	  baseurl = "http://localhost:8080/";
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }

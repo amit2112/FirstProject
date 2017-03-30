@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.737" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="106.998" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.version" value="25.91-b14"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
@@ -15,7 +15,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/amit/amitkr0/JBilling_maven_testNG"/>
-    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
@@ -29,7 +29,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="3.19.0-56-generic"/>
+    <property name="os.version" value="3.19.0-61-generic"/>
     <property name="user.home" value="/home/amit"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -45,7 +45,7 @@
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.version" value="1.8.0_91"/>
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
@@ -58,5 +58,64 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testLoginTestJbilling" classname="com.test.jbilling.LoginTest" time="1.722"/>
+  <testcase name="testLoginTestJbilling" classname="com.test.jbilling.LoginTest" time="29.818">
+    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;2.49.0&apos;, revision: &apos;365eeb44deba2067b1761c8862ef21d55250e063&apos;, time: &apos;2016-01-13 11:57:39&apos;&#10;System info: host: &apos;amit-LENOVO-3000-G580&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.19.0-61-generic&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=26431, browserVersion=49.0.2, platformVersion=3.19.0-61-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux, device=desktop}]&#10;Session ID: 4781af56-1999-4813-bcbe-eb8515fb4b0e" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'amit-LENOVO-3000-G580', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-61-generic', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=26431, browserVersion=49.0.2, platformVersion=3.19.0-61-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux, device=desktop}]
+Session ID: 4781af56-1999-4813-bcbe-eb8515fb4b0e
+	at com.test.jbilling.LoginTest.testLoginTestJbilling(LoginTest.java:15)
+Caused by: java.lang.NullPointerException
+	at com.test.jbilling.LoginTest.testLoginTestJbilling(LoginTest.java:15)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1478842300572	geckodriver	INFO	Listening on 127.0.0.1:2521
+1478842301061	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.AYDqznfcqdhj
+1478842301063	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478842301121	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40138
+
+(firefox:26431): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:26431): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:26431): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:26431): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1478842324864	Marionette	INFO	Listening on port 40138
+1478842354597	Marionette	INFO	startBrowser 4781af56-1999-4813-bcbe-eb8515fb4b0e
+
+(/opt/firefox49/plugin-container:26523): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/opt/firefox49/plugin-container:26523): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/opt/firefox49/plugin-container:26523): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/opt/firefox49/plugin-container:26523): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+JavaScript error: chrome://marionette/content/listener.js, line 897: TypeError: can't access dead object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4C0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600E3,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=25.987) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="com.test.jbilling.Browser" time="33.428">
+    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;2.49.0&apos;, revision: &apos;365eeb44deba2067b1761c8862ef21d55250e063&apos;, time: &apos;2016-01-13 11:57:39&apos;&#10;System info: host: &apos;amit-LENOVO-3000-G580&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.19.0-61-generic&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=26431, browserVersion=49.0.2, platformVersion=3.19.0-61-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux, device=desktop}]&#10;Session ID: 4781af56-1999-4813-bcbe-eb8515fb4b0e" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'amit-LENOVO-3000-G580', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-61-generic', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=26431, browserVersion=49.0.2, platformVersion=3.19.0-61-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux, device=desktop}]
+Session ID: 4781af56-1999-4813-bcbe-eb8515fb4b0e
+	at com.test.jbilling.Browser.tearDown(Browser.java:34)
+Caused by: java.lang.NullPointerException
+	at com.test.jbilling.Browser.tearDown(Browser.java:34)
+</failure>
+  </testcase>
 </testsuite>
